@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Animal - Tu Guía para Mascotas</title>
+    <meta name="description" content="Descubre todo sobre el cuidado, la salud y la adopción de mascotas en Mundo Animal.">
+    <meta name="keywords" content="mascotas, perros, gatos, cuidados, veterinarios, adopción, animales">
+    <meta name="author" content="Mundo Animal Team">
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html">Mundo Animal</a></div>
+            <ul>
+                <li><a href="#tipos">Tipos de Mascotas</a></li>
+                <li><a href="#veterinarios">Veterinarios</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+                <li><a href="paginas/adopcion.html">Adopción</a></li>
+                <li><a href="paginas/noticias.html">Noticias</a></li>
+                <li><a href="paginas/guias.html">Guías</a></li>
+                <li><a href="paginas/comunidad.html">Comunidad</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="portada">
+            <div class="port-contenido">
+                <h1>Amamos a tus Compañeros Peludos</h1>
+                <p>Descubre todo sobre el cuidado, la salud y la adopción de mascotas.</p>
+                <a href="#tipos" class="boton">Explora Ahora</a>
+            </div>
+            <picture>
+                <source srcset="imagenes/portada_mascotas_large.jpg" media="(min-width: 1024px)">
+                <source srcset="imagenes/portada_mascotas_medium.jpg" media="(min-width: 768px)">
+                <img src="imagenes/portada_mascotas.jpg" alt="Imagen de Portada" class="port-imagen">
+            </picture>
+        </div>
+    </header>
+
+    <main>
+        <section id="tipos" class="seccion">
+            <h2>Tipos de Mascotas</h2>
+            <div class="grupo-elementos">
+                <figure class="tarjeta-mascota">
+                    <img src="imagenes/tipo_perro.jpg" alt="Perro">
+                    <figcaption><h3>Perros</h3><p>El mejor amigo del hombre. Conoce las razas y sus necesidades.</p></figcaption>
+                </figure>
+                <figure class="tarjeta-mascota">
+                    <img src="imagenes/tipo_gato.jpg" alt="Gato">
+                    <figcaption><h3>Gatos</h3><p>Compañeros independientes y llenos de cariño.</p></figcaption>
+                </figure>
+                <figure class="tarjeta-mascota">
+                    <img src="imagenes/tipo_conejo.jpg" alt="Conejo">
+                    <figcaption><h3>Conejos</h3><p>Pequeños y adorables, ideales para familias.</p></figcaption>
+                </figure>
+                <figure class="tarjeta-mascota">
+                    <img src="imagenes/tipo_ave.jpg" alt="Ave">
+                    <figcaption><h3>Aves</h3><p>Color y alegría en tu hogar con nuestros amigos alados.</p></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="veterinarios" class="seccion-fondo">
+            <h2>Ubicación de Veterinarios Cercanos</h2>
+            <div class="informacion-veterinaria">
+                <div class="contenido-map">
+                    <img src="imagenes/mapa_veterinarios.jpg" alt="Mapa de Veterinarios" usemap="#vetmap">
+                    <map name="vetmap">
+                        <area shape="circle" coords="150,100,50" href="#clinica-san-roque" alt="Clínica Veterinaria San Roque" title="Clínica Veterinaria San Roque">
+                        <area shape="rect" coords="250,150,400,250" href="#hospital-animal-care" alt="Hospital Veterinario Animal Care" title="Hospital Veterinario Animal Care">
+                    </map>
+                </div>
+                <div class="detalle_veterinaria">
+                    <h3>Encuentra un Veterinario</h3>
+                    <p>Busca clínicas y hospitales veterinarios en tu área.</p>
+                    <ul>
+                        <li id="clinica-san-roque"><strong>Clínica Veterinaria "San Roque"</strong> - Calle Principal #123</li>
+                        <li id="hospital-animal-care"><strong>Hospital Veterinario "Animal Care"</strong> - Avenida Central #456</li>
+                        <li><strong>Consultorio Veterinario "Patitas Felices"</strong> - Jirón Los Pinos #789</li>
+                        <li><a href="#">Ver más veterinarios</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="cuidados" class="seccion">
+            <h2>Cuidados Esenciales para tus Mascotas</h2>
+            <div class="cont-cuidados">
+                <div class="item-cuidados">
+                    <img src="imagenes/cuidado_alimentacion.jpg" alt="Alimento">
+                    <h3>Alimentación</h3>
+                    <p>Guías sobre la mejor alimentación para cada tipo de mascota.</p>
+                </div>
+                <div class="item-cuidados">
+                    <img src="imagenes/cuidado_salud.jpg" alt="Salud">
+                    <h3>Salud e Higiene</h3>
+                    <p>Consejos para mantener a tu mascota sana y limpia.</p>
+                </div>
+                <div class="item-cuidados">
+                    <img src="imagenes/cuidado_ejercicio.jpg" alt="Ejercicio">
+                    <h3>Ejercicio y Juego</h3>
+                    <p>Importancia de la actividad física para su bienestar.</p>
+                </div>
+                <div class="item-cuidados">
+                    <img src="imagenes/cuidado_educacion.jpg" alt="Educación">
+                    <h3>Educación y Adiestramiento</h3>
+                    <p>Tips para educar a tu mascota de forma positiva.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recursos" class="seccion-fondo">
+            <h2>Recursos Útiles</h2>
+            <div class="grupo-recursos">
+                <div class="tarjeta-recursos">
+                    <img src="imagenes/recurso_adopcion.jpg" alt="Adopción">
+                    <h3>Adopción Responsable</h3>
+                    <p>Encuentra organizaciones y consejos para adoptar una mascota.</p>
+                    <a href="paginas/adopcion.html" class="link-recursos">Más información</a>
+                </div>
+                <div class="tarjeta-recursos">
+                    <img src="imagenes/recurso_noticias.jpg" alt="Noticias">
+                    <h3>Noticias y Eventos</h3>
+                    <p>Mantente al día con las últimas novedades del mundo animal.</p>
+                    <a href="paginas/noticias.html" class="link-recursos">Leer más</a>
+                </div>
+                <div class="tarjeta-recursos">
+                    <img src="imagenes/recurso_comunidad.jpg" alt="Comunidad">
+                    <h3>Comunidad de Mascotas</h3>
+                    <p>Conéctate con otros dueños de mascotas y comparte experiencias.</p>
+                    <a href="paginas/comunidad.html" class="link-recursos">Únete ahora</a>
+                </div>
+                <div class="tarjeta-recursos">
+                    <img src="imagenes/recurso_guias.jpg" alt="Guías">
+                    <h3>Guías y Consejos</h3>
+                    <p>Artículos detallados sobre el cuidado de diferentes mascotas.</p>
+                    <a href="paginas/guias.html" class="link-recursos">Ver guías</a>
+                </div>
+            </div>
+            <div class="svg-ejemplo">
+                <h3>Nuestros Amigos Caninos</h3>
+                <svg width="100" height="100" viewBox="0 0 100 100" class="svg-perro">
+                    <path d="M 50 10 C 20 10 20 40 20 50 L 30 90 L 70 90 L 80 50 C 80 40 80 10 50 10 Z" fill="#7B68EE"/>
+                    <circle cx="40" cy="40" r="5" fill="#fff"/>
+                    <circle cx="60" cy="40" r="5" fill="#fff"/>
+                    <path d="M 50 55 C 45 65 55 65 50 55 Z" fill="#fff"/>
+                </svg>
+                <p>Icono representativo de perros en nuestra comunidad.</p>
+            </div>
+        </section>
+
+        <section id="tabla-info" class="seccion">
+            <h2>Estadísticas de Adopción (2024)</h2>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Tipo de Mascota</th>
+                        <th>Adopciones Anuales</th>
+                        <th>Tasa de Éxito</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Perros</td>
+                        <td>1200</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>Gatos</td>
+                        <td>850</td>
+                        <td>85%</td>
+                    </tr>
+                    <tr>
+                        <td>Conejos</td>
+                        <td>300</td>
+                        <td>70%</td>
+                    </tr>
+                    <tr>
+                        <td>Aves</td>
+                        <td>150</td>
+                        <td>60%</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total General</td>
+                        <td>2500+</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="contacto" class="seccion-fondo">
+            <h2>Contáctanos</h2>
+            <form class="contact-form">
+                <p>¡Nos encantaría escuchar de ti! Envíanos tus preguntas o comentarios.</p>
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" required aria-label="Introduce tu nombre completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required aria-label="Introduce tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" required aria-label="Introduce el asunto de tu mensaje">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required aria-label="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mundo Animal.</p>
+    </footer>
+</body>
+</html>
